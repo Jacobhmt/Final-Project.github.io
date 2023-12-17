@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-image: url("image/navbar2.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 3em 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1em;
+    margin: 0 10px;
+    font-weight: bold;
+    font-family: Britannic Bold;
+    border: solid 1px wheat;
+    padding: 15px 30px;
+    background-color: black;
+}
+
+header h1{
+    font-family: Algerian;
+    font-size: 80px;
+    color:skyblue;
+    -webkit-text-stroke: 2px black;
+}
+
+header p{
+    font-family: Benguiat Bk BT;
+    font-size: 20px;
+}
+
+nav a:hover{
+    color: red;
+}
+@media (max-width: 600px) {
+    nav a{
+        display: block;
+}
+.card{
+    max-width: 300px;
+    overflow: hidden;
+}
+
+/* .row{
+    max-width: 0px;
+    overflow: hidden;
+    margin: auto;
+} */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 450px;
+}
+
+carousel-caption{
+    margin-bottom: 200px;
+}
+.carousel-caption h5{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: Benguiat Bk BT;
+    position: relative;
+    color:skyblue;
+}
+.carousel-caption p{
+    margin: auto;
+    width: 60%;
+    font-family: Adobe Garamond Pro Bold;
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 50px;
+    color: #444;
+}
+.container{
+    margin-top: 20px;
+}
+
+table tr td{
+    text-align: center;
+    padding: 10px;
+   
+}
+
+table{
+    margin: auto;
+    width: 100%;
+}
+
+.carousel-caption .btn{
+   font-size: 30px;
+   border-radius: 20px;
+   font-family: Britannic Bold;
+   color: white;
+}
+.row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+}
+.card{
+    margin: 20px;
+    width: 100%;
+}
+table tr td{
+    text-align: left;
+    font-family: Britannic Bold;
+}
+.table{
+    width: 500px; height: 250px
+}
+.card-text a{
+    text-decoration: none;
+}
